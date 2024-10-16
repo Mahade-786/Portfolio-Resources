@@ -170,3 +170,52 @@ main{
 .skill-describtion{
     color: #474747;
 }
+
+
+/* Resume Styles */
+
+.resume{
+    margin-top: 100px;
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.experience-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.experience-sub-title, .experience-describtion{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+/* footer styles */
+
+.footer-container{
+    display: flex;
+    padding: 130px 230px;
+    gap: 200px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"],footer input[type="email"], footer input[type="textarea"], footer input[type="submit"]{
+    height: 35px;
+    border-radius: 6px;
+    padding: 10px 100px;
+    margin-bottom: 14px;
+    font-size: 18px;
+    display: block;
+
+}
